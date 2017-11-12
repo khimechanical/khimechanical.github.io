@@ -69,7 +69,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #009f4e, 
+  primary: #009f4e,
   secondary: #1a4f31,
   success: #57a968,
   warning: #d49930,
@@ -82,7 +82,7 @@ $black: #2e2925;
 $white: #EDF4F4;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Open Sans', sans-serif;
+$body-font-family: 'Roboto', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -129,7 +129,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Work Sans', sans-serif;
+$header-font-family: 'Roboto Condensed', sans-serif;
 $header-font-weight: bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;

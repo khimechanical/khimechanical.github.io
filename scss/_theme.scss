@@ -1,21 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
 header {
     background: $white;
-
-    .logo {
-        color: $black;
-        display: block;
-        font-size: 1.5em;
-        font-weight: 900;
-        margin: 20px 20px;
-        text-align: center;
-
-        span {
-            display: block;
-            font-family: $body-font-family;
-            font-size: .65em;
-            font-weight: normal;
-        }
-    }
+    text-align: center;
 }
 
 .container {
@@ -26,38 +15,13 @@ header {
 
 main {
     background: $black;
-    padding: 60px 0;
-
-    .tag {
-        h2 {
-            border-bottom: 2px solid $primary-color;
-            color: $white;
-            padding-bottom: 8px;
-            margin-bottom: 8px;
-        }
-
-        p {
-            color: $white;
-        }
-
-        @include grid-col;
-
-        @include breakpoint(medium) {
-            @include grid-col-size(6);
-        }
-    }
-
-    .graphic {
-        @include grid-col;
-
-        @include breakpoint(medium) {
-            @include grid-col-size(6);
-        }
-    }
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .services {
-    background: $white;
+    background: $primary-color;
     padding: 60px 0;
 
     h2 {
@@ -74,18 +38,16 @@ main {
     }
 
     .card {
-        background: $medium-gray;
+        background: $white;
         border-radius: 8px;
-        color: $white;
+        color: $black;
 
         .card-divider {
-            background: $medium-gray;
+            background: $white;
 
             h3 {
-                color: $white;
-                font-family: $body-font-family;
+                color: $primary-color;
                 font-size: 1em;
-                font-weight: normal;
                 text-transform: uppercase;
             }
         }
@@ -101,7 +63,8 @@ main {
 }
 
 footer {
-    background: $primary-color;
+    background: $dark-gray;
+    color: $white;
     padding: 60px 0;
 
     .address {
