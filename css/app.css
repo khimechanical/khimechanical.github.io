@@ -3043,9 +3043,9 @@ main {
 
 .services {
   background: #009f4e;
-  padding: 60px 0; }
-  .services h2 {
-    color: #423d3a;
+  padding: 20px 0 60px; }
+  .services h4 {
+    color: #EDF4F4;
     text-align: center; }
   .services .column, .services .columns {
     width: 100%;
@@ -3076,20 +3076,8 @@ footer {
   background: #423d3a;
   color: #EDF4F4;
   padding: 60px 0; }
-  footer .address {
-    width: 100%;
-    float: left;
-    padding-right: 0.625rem;
-    padding-left: 0.625rem; }
-    @media print, screen and (min-width: 40em) {
-      footer .address {
-        padding-right: 0.9375rem;
-        padding-left: 0.9375rem; } }
-    footer .address:last-child:not(:first-child) {
-      float: right; }
-    @media print, screen and (min-width: 40em) {
-      footer .address {
-        width: 50%; } }
+  footer h4 {
+    color: #009f4e; }
   footer .contact {
     width: 100%;
     float: left;
@@ -3103,4 +3091,19 @@ footer {
       float: right; }
     @media print, screen and (min-width: 40em) {
       footer .contact {
+        margin-left: 8.33333%;
+        width: 41.66667%; } }
+  footer .address {
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem; }
+    @media print, screen and (min-width: 40em) {
+      footer .address {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+    footer .address:last-child:not(:first-child) {
+      float: right; }
+    @media print, screen and (min-width: 40em) {
+      footer .address {
         width: 50%; } }

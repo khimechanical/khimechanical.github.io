@@ -22,10 +22,10 @@ main {
 
 .services {
     background: $primary-color;
-    padding: 60px 0;
+    padding: 20px 0 60px;
 
-    h2 {
-        color: $dark-gray;
+    h4 {
+        color: $white;
         text-align: center;
     }
 
@@ -67,15 +67,20 @@ footer {
     color: $white;
     padding: 60px 0;
 
-    .address {
-        @include grid-col;
-
-        @include breakpoint(medium) {
-            @include grid-col-size(6);
-        }
+    h4 {
+        color: $primary-color;
     }
 
     .contact {
+        @include grid-col;
+
+        @include breakpoint(medium) {
+            @include grid-column-offset(1);
+            @include grid-col-size(5);
+        }
+    }
+
+    .address {
         @include grid-col;
 
         @include breakpoint(medium) {
